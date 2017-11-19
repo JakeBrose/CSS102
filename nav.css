@@ -1,0 +1,23 @@
+.navelem {
+    list-style-type: none;
+    margin: 0;
+    padding: 1;
+}
+li {
+    float: left;
+}
+a {
+    display: block;
+    padding: 12px;
+    background-color: grey;
+    border: 2em;
+    border-radius: 50%;
+}
+li a:hover {
+    background-color: black;
+    color: pink;
+}
+a:active {
+    padding: 17px;
+}
+
